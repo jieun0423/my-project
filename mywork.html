@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Works</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="navigation">
+      <button id="backBtn" class="nav-button">Back</button>
+    </div>
+    <div class="container-2">
+      <h1 class="name5">My Works</h1>
+      <p>
+        My Works 페이지에 온걸 환영합니다! 여기서는 저의 작업을 볼 수 있습니다.
+      </p>
+    </div>
+    <div class="work1">
+      <p class="work-item" id="typography">typography</p>
+      <p class="work-item" id="communication-design">Communication Design</p>
+      <p class="work-item" id="digital-media">Digital Media</p>
+    </div>
+    <p class="text2">보고싶은 작품분야를 클릭해보세요!</p>
+    <script>
+      // 버튼 요소 가져오기
+      const backBtn = document.getElementById('backBtn');
+
+      // Back 버튼 클릭 시 index.html로 이동
+      backBtn.addEventListener('click', function () {
+        window.location.href = 'index.html';
+      });
+      // Work 항목 클릭 시 해당 페이지로 이동
+      document
+        .getElementById('typography')
+        .addEventListener('click', function () {
+          window.location.href = 'typography.html';
+        });
+
+      document
+        .getElementById('communication-design')
+        .addEventListener('click', function () {
+          window.location.href = 'communication-design.html';
+        });
+
+      document
+        .getElementById('digital-media')
+        .addEventListener('click', function () {
+          window.location.href = 'digital-media.html';
+        });
+    </script>
+  </body>
+</html>

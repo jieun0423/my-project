@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>typography</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="navigation">
+      <button id="gobackBtn" class="nav-button">Go Back</button>
+    </div>
+    <div class="container-3">
+      <p class="tittle-3">typography</p>
+      <p>-27번째 알파벳과 그 패밀리만들기 프로젝트</p>
+      <p><img src="./img/work1.jpg" class="big-image" /></p>
+      <p>-기네스맥주 로고 타입의 변주</p>
+      <p><img src="./img/work2.jpg" class="big-image" /></p>
+      <p>-리플랫 디자인</p>
+      <p><img src="./img/work12.jpg" class="big-image" /></p>
+    </div>
+    <script>
+      // 버튼 요소 가져오기
+      const gobackBtn = document.getElementById('gobackBtn');
+
+      // Go Back 버튼 클릭 시 mywork.html로 이동
+      gobackBtn.addEventListener('click', function () {
+        window.location.href = 'mywork.html';
+      });
+    </script>
+  </body>
+</html>

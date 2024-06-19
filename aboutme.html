@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About me</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="navigation">
+      <button id="backBtn" class="nav-button">Back</button>
+    </div>
+    <div id="about" class="container">
+      <div class="container1">
+        <div class="container1__left">
+          <p><img src="./img/image3.jpg" /></p>
+        </div>
+        <div class="container1__right">
+          <p class="name">HWANG JI UN</p>
+          <p class="intro">안녕하세요! About Me 페이지에 오신 걸 환영합니다!</p>
+          <p class="intro">
+            상명대학교 커뮤니케이션 디자인과에서 디자인을 공부하고 있는
+            황지은입니다.
+          </p>
+        </div>
+      </div>
+      <div class="container2">
+        <div class="container2__left">
+          <p class="name2">CONTACTS</p>
+          <p>
+            <img src="./img/icon1-1.png" class="small-image" /> 010-8931-7636
+          </p>
+          <p>
+            <img src="./img/icon2-2.png" class="small-image" />
+            hju-hwangjiun@naver.com
+          </p>
+          <p><img src="./img/icon3-3.png" class="small-image" /> jieun_2320</p>
+        </div>
+        <div class="container2__right">
+          <p class="name2-2">ACADEMIC RECORD</p>
+          <p class="intro2">장성 문향 고등학교</p>
+          <p class="intro2">온양 용화 고등학교 졸업</p>
+          <p class="intro2">상명대학교 재학중</p>
+        </div>
+      </div>
+      <div class="container3">
+        <div class="container3__left">
+          <p class="name3">ABILITY</p>
+          <p class="intro3">정보윤리공모전 1위(금상)-고2</p>
+          <p class="intro3">흡연예방 아이디어공모전 2위(은상)-고3</p>
+          <p class="intro3">밀크초코게임공모전 서프라이즈상-대학 재학중</p>
+        </div>
+        <div class="container3__right">
+          <p class="name3-2">HOBBIES</p>
+          <p class="intro3-2">음악듣기 산책 영화보기 책읽기</p>
+          <p>
+            <img src="./img/icon4-4.jpg" class="small-image" />
+            <img src="./img/icon5-5.jpg" class="small-image" />
+            <img src="./img/icon6-6-6.jpg" class="small-image" />
+            <img src="./img/icon7-7.jpg" class="small-image" />
+          </p>
+        </div>
+      </div>
+      <div class="container4">
+        <div class="container4__left">
+          <p class="name4">Skills, Proficiency</p>
+          <p><img src="./img/icon8-8.png" class="big-image" /> illustration</p>
+          <p>
+            <img src="./img/icon9-9-9.jpg.png" class="big2-image" /> Photoshop
+          </p>
+          <p><img src="./img/icon10.png" class="big3-image" /> InDesign</p>
+          <p>
+            <img src="./img/icon11.png" class="big4-image" /> Visual Studio Code
+          </p>
+        </div>
+        <div class="container4__right">
+          <div class="bar" style="width: 520%">illustration</div>
+          <div class="bar" style="width: 380%">Photoshop</div>
+          <div class="bar" style="width: 160%">InDesign</div>
+          <div class="bar" style="width: 220%">Visual Studio Code</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // 버튼 요소 가져오기
+      const backBtn = document.getElementById('backBtn');
+
+      // Back 버튼 클릭 시 index.html로 이동
+      backBtn.addEventListener('click', function () {
+        window.location.href = 'index.html';
+      });
+    </script>
+  </body>
+</html>

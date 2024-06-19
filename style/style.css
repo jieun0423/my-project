@@ -1,0 +1,351 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navigation {
+  padding: 15px;
+  margin: 0;
+  background-color: black;
+}
+
+.navigation2 {
+  padding: 15px;
+  margin: 0;
+}
+
+.nav-button {
+  /* 버튼 배경색 */
+  color: black; /* 버튼 텍스트 색 */
+  border-color: black;
+  padding: 10px 30px; /* 여백 조정 */
+  margin: 5px; /* 버튼 간격 */
+  border-radius: 8px; /* 둥근 테두리 */
+  cursor: pointer; /* 커서 모양 변경 */
+  font-size: 16px; /* 폰트 크기 */
+}
+
+.container {
+  max-width: 100%;
+  margin: 0;
+}
+
+.container1 {
+  padding-inline: 160px;
+  padding-block: 50px;
+  text-align: left;
+  justify-content: space-between;
+  border-bottom: 2px solid black; /* 선의 두께와 색상 */
+  margin: 10px 0; /* 선 위아래의 여백 */
+  margin-block: 0;
+  display: flex;
+}
+
+.container1__right .name {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  margin-block: 10px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.container1__right .intro {
+  font-size: 16px;
+  color: black;
+  margin-top: 20px;
+}
+
+.container2 {
+  padding-left: 60px;
+  padding-right: 10px;
+  display: flex;
+  border-bottom: 2px solid black; /* 선의 두께와 색상 */
+  margin: 10px 0; /* 선 위아래의 여백 */
+  justify-content: space-between;
+}
+
+.small-image {
+  width: 50px; /* 원하는 크기로 조절 */
+  height: auto;
+  height: 50px;
+  vertical-align: middle;
+  gap: 5px;
+}
+
+.container2__left {
+  margin-left: 70px;
+  color: #342011;
+}
+
+.container2__left .name2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  margin-block: 8px;
+  margin-left: 20px;
+}
+
+.container2__right {
+  margin-left: 600px;
+  margin-right: 143px;
+}
+
+.container2__right .name2-2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  margin-block: 8px;
+  margin-right: 10px;
+}
+
+.container2__right .intro2 {
+  font-size: 16px;
+  color: #342011;
+  margin: 40px;
+  text-align: right;
+  margin-right: 0px;
+}
+
+.container3 {
+  padding-inline: 135px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black; /* 선의 두께와 색상 */
+  margin: 10px 0; /* 선 위아래의 여백 */
+  padding-bottom: 20px;
+  color: #342011;
+}
+
+.container3__right {
+  margin-right: 18px;
+}
+
+.container3__left .name3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  margin-left: 12px;
+}
+
+.container3__right .name3-2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  text-align: right;
+  margin-right: 12px;
+}
+
+.container4 {
+  padding-inline: 95px;
+  display: flex;
+  color: #342011;
+}
+
+.container4__left .name4 {
+  font-size: 27px;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+  margin-left: 48px;
+}
+
+.container4__left {
+  font-size: 18px;
+  color: #342011;
+}
+
+.container4__right {
+  text-align: right;
+  margin-right: 55px;
+  margin-left: 200px;
+  padding-top: 50px;
+}
+
+.container4__right .name4-2 {
+  font-size: 27px;
+  font-weight: bold;
+  color: black;
+  margin-right: 45px;
+  margin-bottom: 0;
+  margin-left: 500px;
+}
+
+.container4__left .big-image {
+  width: 90px; /* 원하는 크기로 조절 */
+  height: 90px; /* 원하는 크기로 조절 */
+  vertical-align: middle;
+  margin-right: 5px; /* 이미지 사이의 간격 */
+  margin-block: 5px;
+  margin-block: 0;
+  margin-left: 14px;
+  margin-right: 8px;
+}
+
+.container4__left .big2-image {
+  width: 67px; /* 원하는 크기로 조절 */
+  height: 67px; /* 원하는 크기로 조절 */
+  vertical-align: middle;
+  margin-right: 5px; /* 이미지 사이의 간격 */
+  margin-block: 5px;
+  margin-block: 0;
+  margin-left: 24px;
+  margin-right: 20px;
+}
+
+.container4__left .big3-image {
+  width: 97px; /* 원하는 크기로 조절 */
+  height: 97px; /* 원하는 크기로 조절 */
+  vertical-align: middle;
+  margin-right: 5px; /* 이미지 사이의 간격 */
+  margin-block: 5px;
+  margin-block: 0;
+  margin-left: 10px;
+}
+
+.container4__left .big4-image {
+  width: 65px; /* 원하는 크기로 조절 */
+  height: 65px; /* 원하는 크기로 조절 */
+  vertical-align: middle;
+  margin-right: 5px; /* 이미지 사이의 간격 */
+  margin-block: 5px;
+  margin-block: 0;
+  margin-left: 24px;
+  margin-right: 23px;
+}
+
+.bar {
+  height: 30px;
+  background-color: #682b7c;
+  margin: 10px 0;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  margin-block: 55px;
+  margin-top: 65px;
+}
+
+.container-2 {
+  color: #342011;
+  padding-inline: 150px;
+  margin-block: 0;
+  padding-block: 90px;
+  border-bottom: 2px solid black; /* 선의 두께와 색상 */
+  padding-bottom: 50px;
+}
+
+.container-2 .name5 {
+  color: black;
+  font-size: 40px;
+}
+
+.work1 {
+  margin-block: 0;
+  padding-inline: 150px;
+  padding-block: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+.work-item {
+  background-color: #ebebeb; /* 배경색 */
+  padding: 20px; /* 여백 */
+  text-align: center; /* 텍스트 가운데 정렬 */
+  border-radius: 15px; /* 둥근 테두리 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+  padding-block: 70px;
+  font-size: 20px;
+  font-weight: 570;
+  cursor: pointer;
+}
+
+.name5 {
+  color: #f45d5d;
+}
+
+.name6 {
+  margin-block: 0;
+  margin-left: 72px;
+  font-size: 20px;
+  color: #342011;
+}
+
+.work-image {
+  width: 1000px; /* 원하는 크기로 조절 */
+  height: auto;
+  height: 750px;
+  vertical-align: middle;
+  gap: 5px;
+  margin-left: 72px;
+  border: 2px solid #000; /* 테두리 추가 */
+}
+
+.tittle {
+  font-size: 14px;
+  margin-left: 72px;
+  margin-block: 25px;
+}
+
+.page {
+  padding-inline: 160px;
+  padding-block: 130px;
+  background-color: black;
+  color: aliceblue;
+  font-size: 16px;
+}
+
+.page .tittle1 {
+  font-size: 69px;
+  font-weight: 540;
+}
+
+.page2 {
+  padding-inline: 100px;
+  margin: 0;
+}
+
+.page2 .text {
+  margin-top: 100px;
+  font-size: 17px;
+}
+
+.text2 {
+  margin-left: 160px;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.container-3 {
+  padding-inline: 160px;
+}
+
+.container-3 .tittle-3 {
+  font-size: 40px;
+  font-weight: 560;
+  margin-bottom: 40px;
+}
+
+.big-image {
+  width: 1100px;
+}
+
+.page2 {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 0;
+}
+
+.image3 {
+  width: 270px;
+}
+
+.text {
+  margin-top: 30px; /* 위쪽 여백 설정 */
+  margin-bottom: 50px; /* 아래쪽 여백 설정 */
+}

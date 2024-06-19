@@ -3,9 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my project</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <h2>my project</h2>
+    <div class="navigation2">
+      <button id="aboutBtn" class="nav-button">About Me</button>
+      <button id="workBtn" class="nav-button">My Works</button>
+    </div>
+    <div class="page">
+      <p class="tittle1">Welcome to my portfolio site</p>
+      <p>Check out my introduction and work through the button above.</p>
+    </div>
+    <div class="page2">
+      <p class="text">
+        This is a portfolio website designed to show my work.<bar /> You can
+        appreciate<br />
+        my work from the first year to the second year of college.<br />The list
+        of works includes typography, communication design, digital media, and
+        works using illustrations and Photoshop.
+      </p>
+      <p><img src="./img/image1.png" class="image3" /></p>
+      <p><img src="./img/image4.jpg" class="image3" /></p>
+    </div>
+
+    <script>
+      // 버튼 요소 가져오기
+      const aboutBtn = document.getElementById('aboutBtn');
+      const workBtn = document.getElementById('workBtn');
+
+      // About 버튼 클릭 시 aboutme.html로 이동
+      aboutBtn.addEventListener('click', function () {
+        window.location.href = 'aboutme.html';
+      });
+
+      // Work 버튼 클릭 시 mywork.html로 이동
+      workBtn.addEventListener('click', function () {
+        window.location.href = 'mywork.html';
+      });
+    </script>
   </body>
 </html>
